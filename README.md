@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@esm/index.mjs';
+import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.1.0-esm/index.mjs';
 ```
 
 #### isDateObject( value )
@@ -75,7 +75,7 @@ bool = isDateObject( '2017-01-01' );
 <body>
 <script type="module">
 
-import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@esm/index.mjs';
+import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.1.0-esm/index.mjs';
 
 var bool = isDateObject( new Date() );
 // returns true
