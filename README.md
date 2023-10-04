@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isDateObject = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-date-object/tags). For example,
+
+```javascript
 isDateObject = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isDateObject = require( 'path/to/vendor/umd/assert-is-date-object/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -97,7 +102,7 @@ bool = isDateObject( '2017-01-01' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
