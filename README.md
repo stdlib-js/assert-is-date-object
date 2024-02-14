@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@deno/mod.js';
+import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.2.0-deno/mod.js';
 ```
 
 #### isDateObject( value )
@@ -70,7 +70,7 @@ bool = isDateObject( '2017-01-01' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@deno/mod.js';
+import isDateObject from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-date-object@v0.2.0-deno/mod.js';
 
 var bool = isDateObject( new Date() );
 // returns true
