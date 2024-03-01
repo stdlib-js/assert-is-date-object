@@ -1,4 +1,0 @@
-// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-var t="function"==typeof Symbol&&"symbol"==typeof Symbol("foo");function o(){return t&&"symbol"==typeof Symbol.toStringTag}var r=Object.prototype.toString;var e=Object.prototype.hasOwnProperty;var n="function"==typeof Symbol?Symbol:void 0,a="function"==typeof n?n.toStringTag:"";var l=o()?function(t){var o,n,l,c,y;if(null==t)return r.call(t);n=t[a],y=a,o=null!=(c=t)&&e.call(c,y);try{t[a]=void 0}catch(o){return r.call(t)}return l=r.call(t),o?t[a]=n:delete t[a],l}:function(t){return r.call(t)},c=Date.prototype.getDay;var y=o();function u(t){return"object"==typeof t&&(t instanceof Date||(y?function(t){try{return c.call(t),!0}catch(t){return!1}}(t):"[object Date]"===l(t)))}export{u as default};
-//# sourceMappingURL=mod.js.map
